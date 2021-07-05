@@ -10,7 +10,7 @@ export class AppComponent {
   title = 'orbit-report';
 }
 
-let sourcelist: tuple[] = Satellite[];
+let sourceList: tuple[] = Satellite[];
 
 constructor() {
    this.sourceList = [];
