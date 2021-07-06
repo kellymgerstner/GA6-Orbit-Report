@@ -3,3 +3,4 @@
     <input #searchTerm (keyup.enter) = search(searchTerm.value) type = 'text' placeholder = "Enter search request here"/>
     <button (click) = search(searchTerm.value)></button>
 </div>
+<app-orbit-list [satellites]="displayList"></app-orbit-list>
