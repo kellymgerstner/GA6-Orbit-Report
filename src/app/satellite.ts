@@ -12,4 +12,6 @@ export class Satellite {
         this.operational = operational;
         this.launchDate = launchDate;
     }
+    //TODO: shouldShowWarning method - returns boolean, no parameters, true if space debris, false otherwise, case insensitive
+    //TODO: use shouldShowWarning to add warning CSS class to the <td> for satellites type
 }
