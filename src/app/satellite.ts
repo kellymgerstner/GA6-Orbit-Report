@@ -17,5 +17,4 @@ export class Satellite {
         return this.type.toLowerCase() === 'space debris';
     }
 
-    //TODO: use shouldShowWarning to add warning CSS class to the <td> for satellites type
 }
